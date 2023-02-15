@@ -1,0 +1,36 @@
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.info {
+    min-width: 250px;
+    min-height: 200px;
+    padding: 30px 0px 10px 0px;
+    ;
+    width: 200px;
+    height: 200px;
+}
+
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.occupation {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 0% !important;
+    font-size: 14px;
+}
