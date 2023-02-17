@@ -1,0 +1,27 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+.header {
+display: flex;
+}
+
+.title {
+    width: 90%;
+}
+
+.date {
+    float: right;
+}
+
+.post-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.post {
+    margin-top: 20px;
+}
