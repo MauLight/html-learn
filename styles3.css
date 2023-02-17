@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    padding: 1% 2%;
+}
+
+.more {
+    float: right;
+}
+
+.logo {
+    width: 10%;
+}
+
+.names {
+    width: 80%;
+}
+
+.more {
+    width: 10%;
+}
+
+
+.post_img {
+    width: 400px;
+    height: 400px;
+    object-fit: none;
+    object-position: 58% 50%;
+}
+
+.author {
+    font-size: 14px;
+}
+
+p {
+    margin: 0%;
+}
+
+h2 {
+    margin: 0%;
+    font-size: 16px;
+}
+
+.fa-html5 {
+    font-size: 40px;
+}
+
+.fa-ellipsis-vertical {
+    float: inherit;
+    line-height: 35px !important;
+}
+
+.buttons {
+    display: flex;
+    width: auto;
+    padding: 1% 2%;
+}
+
+.left-btns {
+    width: 15%;
+    font-size: 15px;
+}
+
+.right-btn {
+    width: 85%;
+}
+
+.fa-regular {
+    float: right;
+}
+
+.likes, .comments {
+    font-size: 14px;
+    padding: 1% 2%;
+}
+
