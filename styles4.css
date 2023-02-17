@@ -36,3 +36,11 @@ h1, h2 {
 .post {
     margin-top: 20px;
 }
+
+.red {
+    background-color: brown;
+}
+
+.blue {
+    background-color: aqua;
+}
