@@ -16,20 +16,16 @@
     <div class="nav">
         <nav class="navbar navbar-expand-lg bg-light w-100">
             <div class="container-fluid">
-                <div class="col-10">
+                <div class="col-10 px-5">
                     <i class="fa-brands fa-instagram"></i>
                     <a class="navbar-brand" href="#">Instagram</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
                 </div>
                 <div class="col-2 d-flex float-end dropdown-start">
-                    <button class="btn btn-success">Create new post</button>
+                    <button class="create btn border rounded-0" type="button" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Create new post</button>
                     <div class="dropdown-center float-end">
-                        <button class="btn btn-secondary dropdown-toggle mx-2" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <button class="toggle btn border rounded-0 dropdown-toggle mx-2" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-gear"></i>
                         </button>
                         <ul class="dropdown-menu">
@@ -49,38 +45,68 @@
     </div>
     <div class="feed">
         <div class="menu d-flex justify-content-center gap-2">
-            <a href="#">
-                <i class="fa-solid fa-square"></i>
+            <a href="./index8.html">
+                <i class="post fa-solid fa-square"></i>
             </a>
-            <a href="#">
-                <i class="fa-solid fa-table-cells"></i>
+            <a href="./index7.html">
+                <i class="feed fa-solid fa-table-cells"></i>
             </a>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-4">
-                    <img class="feed_img" src="https://www.moviemania.io/download/pt1fho508b/1080x1920">
+                    <img class="feed_img" src="https://www.previewsworld.com/SiteImage/MainImage/STL193786.jpg">
                 </div>
                 <div class="col-4">
-                    <img class="feed_img" src="https://www.moviemania.io/download/pt1fho6ca1/1080x1920">
+                    <img class="feed_img" src="https://www.publishersweekly.com/images/data/ARTICLE_PHOTO/photo/000/087/87175-2.JPG">
                 </div>
                 <div class="col-4">
-                    <img class="feed_img" src="https://www.moviemania.io/download/pt1fho20c4/1080x1920">
+                    <img class="feed_img" src="https://image.keycollectorcomics.com/media/b1585809926605heavy_metal_278_a.png?height=600">
                 </div>
             </div>
             <div class="row">
                 <div class="col-4">
-                    <img class="feed_img" src="https://www.moviemania.io/download/pt1fho7a42/1080x1920">
+                    <img class="feed_img" src="https://cdn.shopify.com/s/files/1/2358/6005/products/spr87_1024x1024@2x.jpg?v=1505679558">
                 </div>
                 <div class="col-4">
-                    <img class="feed_img" src="https://www.moviemania.io/download/pt1fho7907/1080x1920">
+                    <img class="feed_img" src="https://cdn.shopify.com/s/files/1/2358/6005/products/HM319A_1024x1024@2x.jpg?v=1668713742">
                 </div>
-                <div class="col-4">#</div>
+                <div class="col-4">
+                    <img class="feed_img" src="https://i.pinimg.com/originals/de/88/da/de88da0cb649a4dc9f062e89c3a59188.jpg">
+                </div>
             </div>
             <div class="row">
-                <div class="col-4">#</div>
-                <div class="col-4">#</div>
-                <div class="col-4">#</div>
+                <div class="col-4">
+                    <img class="feed_img" src="https://cdn.shopify.com/s/files/1/2358/6005/products/0796_1024x1024@2x.jpg?v=1505679576">
+                </div>
+                <div class="col-4">
+                    <img class="feed_img" src="https://cdn.shopify.com/s/files/1/2358/6005/products/hm319-heavy-metal-vol-319_1024x1024@2x.jpg?v=1668574457">
+                </div>
+                <div class="col-4">
+                    <img class="feed_img" src="https://cdn.shopify.com/s/files/1/2358/6005/products/0599_1024x1024@2x.jpg?v=1505679585">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Create a new post</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">What are you thinking?</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="toggle btn rounded-0 border" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="toggle btn rounded-0 border">Publish</button>
+                </div>
             </div>
         </div>
     </div>

@@ -1,4 +1,23 @@
+.create:hover {
+    background-color: #333333;
+    color: whitesmoke;
+}
+.toggle:hover {
+    background-color: #333333;
+    color: whitesmoke;
+}
+
+.post, .feed {
+    color: #333333;
+}
+
 .feed_img {
-    width: 400px;
+    width: 100%;
     height: auto;
+    margin: 10px;
+}
+
+.card {
+    width: 36rem;
+    margin-top: 40px;
 }
