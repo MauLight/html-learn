@@ -1,0 +1,18 @@
+.title,
+.footer {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.btn:hover {
+    color: whitesmoke;
+    background-color: #333;
+}
+
+.alert-row {
+    padding: calc(var(--bs-gutter-x) * .5);
+}
+
+.alert {
+    margin-bottom: 0%;
+}
